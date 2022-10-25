@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafxprojectday19.HomeController">
+   <children>
+      <AnchorPane prefHeight="418.0" prefWidth="231.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-3.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="23.0" layoutY="185.0" text="Google CodeJam" textFill="#4a3636">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="418.0" prefWidth="473.0" style="-fx-background-color: #FFF0F5;">
+         <children>
+            <Label layoutX="35.0" layoutY="193.0" text="Username">
+               <font>
+                  <Font name="Candara" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="97.0" layoutX="134.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@login.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="41.0" layoutY="247.0" text="Password">
+               <font>
+                  <Font name="Candara Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="168.0" layoutY="197.0" />
+            <TextField fx:id="tf_password" layoutX="168.0" layoutY="250.0" />
+            <Button fx:id="button_login" layoutX="194.0" layoutY="295.0" mnemonicParsing="false" text="Login">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="73.0" layoutY="357.0" />
+            <Label fx:id="check" layoutX="197.0" layoutY="152.0" text="Checking : " />
+            <Button fx:id="button_signup" layoutX="229.0" layoutY="366.0" mnemonicParsing="false" text="Signup" textFill="#0b28c9">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="59.0" layoutY="370.0" text="Don't have an account?" />
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
